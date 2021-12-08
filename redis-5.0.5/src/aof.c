@@ -30,9 +30,13 @@
 #include "server.h"
 #include "bio.h"
 #include "rio.h"
+#include "wait3.h"
 
+#include <stdio.h>
+#include <unistd.h>
 #include <signal.h>
 #include <fcntl.h>
+#include <sys/types.h>
 #include <sys/stat.h>
 #include <sys/types.h>
 #include <sys/time.h>
